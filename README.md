@@ -9,3 +9,12 @@ Finally output of the work looks like 'Transliterated' script of the character. 
 
 In our future work, we are going to create a Web application on the model in order to make it User-friendly.
 
+Whole work description:
+       - A picture of Inscription is given to the web application as an Input
+       - The Input is Segmented into words.
+       - Then Bounding Boxes are created for each Character of a word from sentence segmentation.
+       - Co-ordinates of Bounding Box are obtained and then cropped with help of co-ordinates.
+       - After obtaining each Character's image, it is sent to model and transliterated output of character is obtained.
+       - Integration of transliterated output
+       - Translation of the integrated transliterated output in a language of user comfort.
+       - Thus we obtain meaning of the Inscription.
