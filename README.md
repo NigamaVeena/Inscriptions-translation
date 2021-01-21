@@ -1,6 +1,8 @@
 # Inscriptions-translation
 Inscriptions are like Treasure which tell us about ancient Culture,Civilizations,Medical Practices followed at that time and much more ,which indeed helpful to current technologies in order to obtain progress. Here is a small work done by me, to obtain Inscriptions and translate them into a comfortable language of user.
 
+Here I took Telugu Inscritions, as Inscriptions extraction is not not yet clear in Telugu( and also bcoz my mother tongue is Telugu :D )
+
 In this work, I created my own Database of handwritten characters and them trained an Image classifier by using MobileNetV2(type of CNN), where we got an accuracy of 84% .
 
 In the model, I have used almost 25 Epoches in order to increase the performance of the model. Also used Adam Optimizer.
